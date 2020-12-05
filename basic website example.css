@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::selection{
+color: rgb(255, 0, 0);
+background-color: rgb(9, 230, 238);
+}
+.logo a{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .logo h3{
+    margin-left: 180px;
+    margin-top: 20px;
+opacity: 0.8;
+ }
+ .logo h3 a{
+     color: brown;    
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration: none;
+ }
+ .logo1{
+     margin-left: 190px;
+ }
+ .logo1 button{
+     margin-left: 10px;
+     margin-top: 20px;
+width: 180px;
+border: 2px solid red;
+border-radius: 20px;
+height: 42px;
+cursor: pointer;
+ }
+ .logo1 button:hover{
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 68, 255);
+     transition: all 0.5s;
+ }
+ .signin{
+     font-size: larger;
+     text-transform: uppercase;
+     background-color: rgb(119, 43, 190);
+     color: white;
+ }
+ /* .menu{
+     position: sticky;
+     top:0px;
+     background-color: rgb(255, 255, 255);
+    
+ } */
+ 
+
+ .menubar{
+   
+     margin-top: 20px;
+
+ }
+ .menubar li{
+     
+     margin-left: 15px;
+     font-size: 16px;
+ }
+ .menubar li a{
+        color: rgb(26, 24, 24);
+        opacity: 0.8;
+        
+ }
+ .menubar li a:hover{
+     color: rgb(4, 129, 245);
+ }
+ .home{
+     color: rgb(4, 129, 245);
+ }
+ #Headline{
+     background: url(https://images.pexels.com/photos/999267/pexels-photo-999267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+     
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-size: 100% 100%;
+     height: 100vh;
+     border-top: 4px solid rgb(255, 0, 0);
+     margin-top: 25px;
+ }
+ .feature h2{
+     text-align: center;
+        background-color: rgb(72, 181, 189); 
+        width: 100%;
+        padding: 30px;
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    
+ }
+ .feature h5{
+    text-align: center;
+     background-color: rgb(72, 181, 189);  
+    width: 100%;    
+    padding: 10px;
+   position: relative;
+   bottom: 11px;
+   opacity: 0.7;
+   color: rgb(29, 17, 17);
+ }
+ .feature button{
+     margin-left: 650px;
+width: 240px;
+background-color: brown;
+color: white;
+opacity: 0.9;
+border-radius: 10px;
+border: 2px solid rgb(224, 214, 214);
+ }
+ #need{
+     margin-top: 90px;
+
+ }
+ .see h2{
+     opacity: 0.7;
+
+ }
+ .see p{
+     margin-top: 20px;
+   
+ }
+ .see button{
+   margin-left: 360px;
+   margin-top: 30px;
+   border: 3px dotted rgb(4, 47, 236);
+   background-color: rgb(247, 100, 43);
+   color: white;
+   height: 50px;
+   border-radius: 20px;
+   cursor: pointer;
+   margin-bottom: 16px;
+   width: 35%;
+   font-weight: bold;
+ }
+ #widgets{
+     margin-top: 40px;
+ }
+ .card{
+     border: none;
+     text-align: center;
+ }
+ #footer{
+     margin-left: 0px;
+     margin-top: 60px;
+   background-color: rgb(170, 164, 170);
+   height: 250px;
+
+ }
+ .footer-value{
+     margin-top: 40px;
+ }
+ .footer-value h5{
+     margin-left: 250px;
+     opacity: 0.8;
+     cursor: pointer;
+     font-family: fantasy;
+margin-bottom: 30px;
+ }
+ .footer-value h6{
+   margin-left: 250px;
+   
+ }
+ .footer-value h6 a{
+color: rgb(10, 10, 10);
+opacity: 0.8;
+font-size: small;
+font-family: sans-serif;
+
+ }
+ .footer-value h6 a:hover{
+color: blue;
+text-decoration: none;
+ }
+ .footer-value1 h5{
+    margin-left: 40px;
+    opacity: 0.8;
+    cursor: pointer;
+    font-family: fantasy;
+margin-bottom: 30px;
+margin-top: -10px;
+    
+ }
+ .footer-value1 {
+margin-left: 200px;
+margin-top: 50px;
+ }
+ .footer-value1 a{
+     padding: 10px;
+    font-size: xx-large;
+   
+ }
+ #privacy{
+     height: 90px;
+     background-color: rgb(53, 42, 42);
+ }
+ .terms {
+     margin-left: 450px;
+     margin-top: 30px;
+ }
+ .terms a{
+     color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+ }
+ @media (max-width: 768px){
+    .logo h3{
+        margin-left: -20px;
+    }
+     .logo1{
+        margin-left: 150px;
+    }
+    .times{
+        color: black;
+        font-size:xx-large;
+     background-color: rgb(240, 240, 152);
+     color: whitesmoke;
+     border-radius: 10px;
+           
+     color: rgb(231, 6, 6);
+    }
+    .navbar-nav li{
+        border-bottom: 2px solid rgb(92, 197, 230);
+    }
+    .see button{
+        margin-left:90px;
+        border: 2px solid rgb(4, 47, 236);
+        width: 64%;
+      }
+      #footer{
+       height:auto;
+   }
+    .footer-value h5{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .footer-value h6{
+        margin-left: 50px;
+      }
+      .footer-value1 h5{
+        margin-left: 10px;
+     margin-bottom: 20px;
+     }
+     .footer-value1 {
+        margin-left: 0px;
+         }
+         .footer-value1 a{
+            padding: 4px;
+           font-size: large;
+          
+        }
+        #privacy{
+            height:100px;
+            background-color: rgb(53, 42, 42);
+        }
+        .terms {
+            margin-left: 0px;
+            margin-top: 30px;
+        }
+        .terms a{
+            color: rgb(255, 255, 255);
+           margin: 10px;
+           text-decoration: none;
+        }
+ }
+ @media(max-width:645px){
+    .logo h3{
+    display: none;
+    }
+    .logo1{
+        margin-left: 10px;
+    }
+    /* .logo a{
+        color: black;
+        font-size: large;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    } */
+ }
+ @media (max-width:430px){
+        .logo a{
+        font-size: x-large;
+          }
+          .see button{
+            margin-left: 70px;
+           font-size: small;
+          }
+ }
+ @media (min-width:768px) and (max-width:990px){
+    .logo h3{
+        margin-left: 80px;
+        margin-top: 20px;
+    opacity: 0.8;
+     }
+     .logo1 button{
+        margin-left: 50px;
+    }
+    .times{
+        color: black;
+        font-size:xx-large;
+     background-color: rgb(24, 24, 23);
+     color: whitesmoke;
+     border-radius: 10px;
+    }
+    .navbar-nav li{
+        border-bottom: 2px solid rgb(92, 197, 230);
+    }
+     #privacy{
+        height: 90px;
+        background-color: rgb(53, 42, 42);
+    }
+    #footer{
+        height: auto;
+   
+    }
+    .terms {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .footer-value1 {
+        margin-left: 50px;
+        margin-top: 50px;
+         
+         }
+         .footer-value h5{
+            margin-left: 50px;
+            }
+         .footer-value h6{
+            margin-left: 50px;
+            
+          }
+          .footer-value1 a{
+            padding: 10px;
+           font-size: x-large;
+          
+        }
+ }
+ @media(min-width:868px) and (max-width:988px){
+    .logo h3{
+     
+       margin-left: 190px;
+        margin-top: 20px;
+    opacity: 0.8;
+     }
+     .footer-value h5{
+        margin-left: 110px;
+        }
+     .footer-value h6{
+        margin-left: 110px;
+        
+      }
+      .terms {
+        margin-left: 160px;
+        margin-top: 30px;
+    }
+    .logo1 button{
+        margin-left: 90px;
+    }
+ }
+ @media(min-width:990px) and (max-width:1144px){
+    .logo1{
+        margin-left: 360px;
+    }
+    .logo h3{
+        margin-left: 320px;
+        margin-top: 20px;
+    opacity: 0.8;
+     }
+     #footer{
+        height: auto;
+   
+    }
+    .times{
+        color: black;
+        font-size:xx-large;
+     background-color: rgb(24, 24, 23);
+     color: whitesmoke;
+     border-radius: 10px;
+    }
+    .terms {
+        margin-left: 190px;
+        margin-top: 30px;
+    }
+    .footer-value1 {
+        margin-left: 100px;
+        margin-top: 50px;
+         
+         }
+         .footer-value h5{
+            margin-left: 120px;
+            }
+         .footer-value h6{
+            margin-left: 120px;
+            
+          }
+ }
+@media (min-width:1144px) and (max-width:1260px){
+    .logo h3{
+        margin-left: 70px;
+        margin-top: 20px;
+    opacity: 0.8;
+     }
+     .logo1{
+        margin-left: 20px;
+        text-align: center;
+    }
+    #footer{
+      
+      height: auto;
+   
+    }
+    .footer-value h5{
+        margin-left: 170px;
+        opacity: 0.8;
+        cursor: pointer;
+        font-family: fantasy;
+   margin-bottom: 30px;
+    }
+    .footer-value h6{
+      margin-left: 170px;
+      
+    }
+    .footer-value1 {
+        margin-left: 100px;
+        margin-top: 50px;
+         }
+         .terms {
+            margin-left: 250px;
+            margin-top: 30px;
+        }
+}
+@media (min-width:1260px) and (max-width:1420px){
+    .logo1{
+        margin-left: 100px;
+    }
+    .logo h3{
+        margin-left: 80px;
+        margin-top: 20px;
+    opacity: 0.8;
+     }#footer{
+      
+        height: auto;
+     
+      }
+      .footer-value h5{
+          margin-left: 190px;
+         }
+      .footer-value h6{
+        margin-left: 190px;
+        
+      }
+      .footer-value1 {
+          margin-left: 190px;
+           }
+           .terms {
+            margin-left: 340px;
+            }
+}
+ 
