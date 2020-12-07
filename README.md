@@ -1,6 +1,7 @@
 <h1 align="center">Simple Html website Example</h1>
---
+
 ### Demo
+
 [See a demo here](https://sd-shivam.github.io/basicwebsite)
 
 ### What is this?
