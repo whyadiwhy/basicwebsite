@@ -1,13 +1,13 @@
 <h1 align="center">Simple Html website Example</h1>
 --
+### Demo
+[See a demo here](https://sd-shivam.github.io/basicwebsite)
 
 ### What is this?
 
-A collection of loading animations written entirely in css.
-Each animation is limited to a small subset of css properties in order
-to avoid expensive painting and layout calculations.
-Animations will help you to save time when creating your webpages! 
-These responsive layouts are pure css and easy to customize including colors.
+A collection of website templates written entirely in css & Html.
+Css will help you to save time when creating your webpages! 
+These layouts are pure css and Html.
 
 fully customizable invoice, what ever you want to change you can change easy .
 like :-
